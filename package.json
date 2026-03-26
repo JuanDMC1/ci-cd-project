@@ -1,0 +1,30 @@
+{
+  "name": "ci-cd-project",
+  "version": "1.0.0",
+  "description": "Proyecto CI/CD con tests y coverage",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest",
+    "coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuanDMC1/ci-cd-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/JuanDMC1/ci-cd-project/issues"
+  },
+  "homepage": "https://github.com/JuanDMC1/ci-cd-project#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "jest": "^30.0.0",
+    "supertest": "^7.0.0"
+  }
+}
