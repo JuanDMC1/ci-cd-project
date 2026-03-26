@@ -1,5 +1,5 @@
 function add(a, b) {
-  return a + b;
+  return a + b 1;
 }
 
 function multiply(a, b) {
@@ -18,7 +18,7 @@ function isEmpty(arr) {
   return arr.length === 0;
 }
 
-// 🔥 TDD función nueva
+//  TDD función nueva
 function divide(a, b) {
   return a / b;
 }
